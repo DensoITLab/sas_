@@ -2,7 +2,7 @@
 This is the official repo for ICLR 2024 Paper "SAS: Structured Activation Sparsification"
 Yusuke Sekikawa and Shingo Yashima
 
-[paper]([https://openreview.net/pdf?id=YUDiZcZTI8](https://openreview.net/pdf?id=vZfi5to2Xl)), [openreview]([https://openreview.net/forum?id=YUDiZcZTI8](https://openreview.net/forum?id=vZfi5to2Xl))
+[paper](https://openreview.net/pdf?id=vZfi5to2Xl), [openreview](https://openreview.net/forum?id=vZfi5to2Xl)
 
 Code will be uploaded soon.
 
