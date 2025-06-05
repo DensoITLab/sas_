@@ -4,6 +4,8 @@ Yusuke Sekikawa and Shingo Yashima
 
 [paper](https://openreview.net/pdf?id=vZfi5to2Xl), [openreview](https://openreview.net/forum?id=vZfi5to2Xl)
 
+## Run
+
 
 ## Citation
 If you find our code or paper useful, please cite the following:
