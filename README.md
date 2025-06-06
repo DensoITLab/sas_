@@ -29,8 +29,7 @@ All models were trained on the ImageNet dataset under the following common setti
 ## 
 
 <p align="center">
-  <img src="./assets/flops.png" alt="flops" width="430px" />
-  <img src="./assets/acc.png" alt="acc" width="430px" />
+  <img src="./assets/flops.png" alt="flops" width="500px" />
 </p>
 
 - SAS achieves a 46.0% reduction in FLOPs.
@@ -39,6 +38,11 @@ All models were trained on the ImageNet dataset under the following common setti
 
 - The SAS FLOPs value shown was computed by linearly interpolating its Top-1 accuracy between ResNet-18 and Wide ResNet-18.
 
+## 
+
+<p align="center">
+  <img src="./assets/acc.png" alt="acc" width="500px" />
+</p>
 
 ---
 
