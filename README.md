@@ -4,6 +4,8 @@ Yusuke Sekikawa and Shingo Yashima
 
 [paper](https://openreview.net/pdf?id=vZfi5to2Xl), [openreview](https://openreview.net/forum?id=vZfi5to2Xl)
 ## Overview
+SAS expands representational capacity by projecting inputs into a higher-dimensional, structured-sparse space. This enables a wider weight matrix to process sparse activations at unchanged FLOPs, and the resulting flexibility lets the network select the appropriate weights depending on its input—thereby improving accuracy.
+
 
 ## Run
 ### 1. Train standard ResNet-18
