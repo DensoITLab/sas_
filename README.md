@@ -10,9 +10,7 @@ Yusuke Sekikawa and Shingo Yashima
 
 SAS expands representational capacity by projecting inputs into a higher-dimensional, structured-sparse space. This enables a wider weight matrix to process sparse activations at unchanged FLOPs, and the resulting flexibility lets the network select the appropriate weights depending on its input—thereby improving accuracy.
 
-
-
-
+## 
 
 <p align="center">
   <img src="./assets/line_chart.png" alt="line_chart" width="600px" />
@@ -26,12 +24,11 @@ All models were trained on the ImageNet dataset under the following common setti
 - **Learning rate scheduler:** Cosine annealing  
 - **Optimizer:** SGD (momentum=0.9, weight decay=1e-4)
 
-
-
+## 
 
 <p align="center">
-  <img src="./assets/flops.png" alt="flops" width="400px" />
-  <img src="./assets/acc.png" alt="acc" width="400px" />
+  <img src="./assets/flops.png" alt="flops" width="450px" />
+  <img src="./assets/acc.png" alt="acc" width="450px" />
 </p>
 
 
