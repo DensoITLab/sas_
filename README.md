@@ -24,14 +24,23 @@ All models were trained on the ImageNet dataset under the following common setti
 - **Learning rate scheduler:** Cosine annealing  
 - **Optimizer:** SGD (momentum=0.9, weight decay=1e-4)
 
+※ Wide ResNet-18 refers to a model that has twice as many parameters as ResNet-18.
+
 ## 
 
 <p align="center">
-  <img src="./assets/flops.png" alt="flops" width="450px" />
-  <img src="./assets/acc.png" alt="acc" width="450px" />
+  <img src="./assets/flops.png" alt="flops" width="430px" />
+  <img src="./assets/acc.png" alt="acc" width="430px" />
 </p>
 
+- SAS achieves a 46.0% reduction in FLOPs.
 
+- Comparison of FLOPs at a fixed Top-1 accuracy.
+
+- The SAS FLOPs value shown was computed by linearly interpolating its Top-1 accuracy between ResNet-18 and Wide ResNet-18.
+
+
+---
 
 ## Run
 ### 1. Train standard ResNet-18
@@ -50,6 +59,8 @@ python train.py <TRAIN_DATA_DIR> <VAL_DATA_DIR> --arch wide_resnet18
 ```bash
 python train.py <TRAIN_DATA_DIR> <VAL_DATA_DIR> --use_sas --arch wide_resnet18
 ```
+
+---
 
 ## Citation
 If you find our code or paper useful, please cite the following:
