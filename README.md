@@ -3,8 +3,37 @@ This is the official repo for ICLR 2024 Paper "SAS: Structured Activation Sparsi
 Yusuke Sekikawa and Shingo Yashima
 
 [paper](https://openreview.net/pdf?id=vZfi5to2Xl), [openreview](https://openreview.net/forum?id=vZfi5to2Xl)
+
 ## Overview
+![sas_alg](./assets/sas.png) 
+
+
 SAS expands representational capacity by projecting inputs into a higher-dimensional, structured-sparse space. This enables a wider weight matrix to process sparse activations at unchanged FLOPs, and the resulting flexibility lets the network select the appropriate weights depending on its input—thereby improving accuracy.
+
+
+
+
+
+<p align="center">
+  <img src="./assets/line_chart.png" alt="line_chart" width="700px" />
+</p>
+
+All models were trained on the ImageNet dataset under the following common settings:
+
+- **Loss function:** Distillation loss  
+- **Data augmentation:** AutoAugment  
+- **Batch size:** 256  
+- **Learning rate scheduler:** Cosine annealing  
+- **Optimizer:** SGD (momentum=0.9, weight decay=1e-4)
+
+
+
+
+<p align="center">
+  <img src="./assets/flops.png" alt="flops" width="500px" />
+  <img src="./assets/acc.png" alt="acc" width="500px" />
+</p>
+
 
 
 ## Run
