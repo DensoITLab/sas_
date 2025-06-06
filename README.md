@@ -30,8 +30,8 @@ All models were trained on the ImageNet dataset under the following common setti
 
 
 <p align="center">
-  <img src="./assets/flops.png" alt="flops" width="350px" />
-  <img src="./assets/acc.png" alt="acc" width="350px" />
+  <img src="./assets/flops.png" alt="flops" width="400px" />
+  <img src="./assets/acc.png" alt="acc" width="400px" />
 </p>
 
 
