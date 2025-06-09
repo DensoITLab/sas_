@@ -8,7 +8,7 @@ Yusuke Sekikawa and Shingo Yashima
 ![sas_alg](./assets/sas.png) 
 
 
-SAS expands representational capacity by projecting inputs into a higher-dimensional, structured-sparse space.This is equivalent to selecting the appropriate weights depending on its input—thereby improving accuracy while keeping the same FLOPs.
+SAS expands representational capacity by projecting inputs into a higher-dimensional, structured-sparse space.This is equivalent to selecting the appropriate weights depending on its input—thereby improving accuracy without increasing FLOPs.
 
 ## 
 
@@ -27,22 +27,25 @@ All models were trained on the ImageNet dataset under the following common setti
 ※ Wide ResNet-18 refers to a model that has twice as many parameters as ResNet-18.
 
 ## 
+### Computation 
 
 <p align="center">
   <img src="./assets/flops.png" alt="flops" width="500px" />
 </p>
 
-- SAS achieves a 46.0% reduction in FLOPs.
-
-- Comparison of FLOPs at a fixed Top-1 accuracy.
-
-- The SAS FLOPs value shown was computed by linearly interpolating its Top-1 accuracy between ResNet-18 and Wide ResNet-18.
+- SAS achieves a 46.0% reduction in FLOPs at a fixed Top-1 accuracy.
+  - The SAS FLOPs value shown was computed by linearly interpolating its Top-1 accuracy between ResNet-18 and Wide ResNet-18.
 
 ## 
+### Accuracy 
 
 <p align="center">
   <img src="./assets/acc.png" alt="acc" width="500px" />
 </p>
+
+- SAS increases Top-1 accuracy by 2.63% at the same FLOPs.
+
+
 
 ---
 
