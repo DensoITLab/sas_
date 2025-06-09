@@ -8,7 +8,7 @@ Yusuke Sekikawa and Shingo Yashima
 ![sas_alg](./assets/sas.png) 
 
 
-SAS expands representational capacity by projecting inputs into a higher-dimensional, structured-sparse space. This enables a wider weight matrix to process sparse activations at unchanged FLOPs, and the resulting flexibility lets the network select the appropriate weights depending on its input—thereby improving accuracy.
+SAS expands representational capacity by projecting inputs into a higher-dimensional, structured-sparse space.This is equivalent to selecting the appropriate weights depending on its input—thereby improving accuracy while keeping the same FLOPs.
 
 ## 
 
