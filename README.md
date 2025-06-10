@@ -34,7 +34,7 @@ All models were trained on the ImageNet dataset under the following common setti
 </p>
 
 - SAS achieves a 46.0% reduction in FLOPs at a fixed Top-1 accuracy.
-  - The SAS FLOPs value shown was computed by linearly interpolating its Top-1 accuracy between ResNet-18 and Wide ResNet-18.
+  - The width (X≒1.8) that matches SAS’s Top-1 accuracy was determined by linearly interpolating between the Top-1 accuracies of ResNet-18 and Wide ResNet-18. We then set this Wide (X≒1.8) ResNet-18 as the 100 % FLOPs baseline and calculated the FLOPs of SAS accordingly.
 
 ## 
 ### Accuracy 
